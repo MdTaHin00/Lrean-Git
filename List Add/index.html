@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List Add</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style type="text/tailwindcss">
+   @layer components{
+    .div-class{
+      @apply mb-2 relative w-[500px] mx-auto
+    }
+    .input-class{
+      @apply w-[500px] h-10 border-2 border-lime-500
+    }
+    .line-class{
+     @apply bg-black text-xl  text-yellow-50 absolute top-0 right-44 font-semibold font-mono h-10 hover:bg-slate-600  hover:text-yellow-100 duration-700 px-3
+    }
+   .Edit-class{
+    @apply bg-[#A28F9D] text-xl  text-yellow-50 absolute top-0 right-24 font-semibold font-mono h-10 hover:bg-slate-600  hover:text-yellow-100 duration-700 px-3 mr-1
+   }
+   .Delete-class{
+     @apply bg-[#5C574F] text-xl  text-red-500 absolute top-0 right-0 font-semibold font-mono h-10 hover:bg-slate-600  hover:text-yellow-100 duration-700 px-3
+   } 
+   }
+
+
+  </style>
+
+</head>
+<body>
+ <section class="text-center" id="main">
+    <h1 class="font-semibold text-4xl mb-5">List Add </h1>
+  <div class="mb-10 relative w-[500px] mx-auto">
+     
+    <input 
+          type="text"
+          value="" 
+          id="list"
+          placeholder="   Text" 
+          class="w-[500px] h-10 border-2 border-red-600">
+
+       <button id="btn" class="bg-black text-xl text-yellow-50 absolute top-0 right-0 font-semibold font-mono h-10 hover:bg-slate-600  hover:text-yellow-100 duration-700">Add List</button>
+
+    </div>
+    
+    <!-- <div class="div-class">
+        
+       <input 
+         type="text"
+         value="" 
+         placeholder="   Text" 
+         class="input-class">
+
+       <button id="Edit" class="Edit-class">Edit</button>
+      
+       <button id="Line" class="line-class ">Line</button>
+
+       <button id="delete"class="Delete-class">Delete</button>
+    </div> -->
+
+ </section>
+
+  <script src="apps.js"></script>
+</body>
+</html>
