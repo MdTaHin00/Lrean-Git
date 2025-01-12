@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Marcellus+SC&family=Montserrat:wght@703&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<style>
+  section{
+    font-family: "Marcellus SC", serif;
+  }
+</style>
+<body>
+  
+<section class="m-auto bg-green-400 w-[500px] pl-28">
+  <h1 class="font-semibold text-4xl ">Calculator</h1>
+     <input type="text" id="result" class="w-[240px] h-10 mb-5 text-2xl pl-5" >
+
+       <div class="grid grid-cols-4 w-[240px] gap-y-1">
+           <input type="button" value="C" id="Clean" class="w-14 h-12 text-center bg-slate-500 text-yellow-100 font-bold text-3xl hover:bg-black hover:text-white duration-500" onclick="clean()">
+         
+           <input type="button" value="(" id="" class="w-14 h-12 text-center bg-slate-500 text-yellow-100 font-bold text-3xl hover:bg-red-500 hover:text-blue-400 duration-500" onclick="calculator('(')">
+         
+           <input type="button" value=")" id="" class="w-14 h-12 text-center bg-slate-500 text-yellow-100 font-bold text-3xl hover:bg-red-500 hover:text-blue-400 duration-500" onclick="calculator(')')">
+         
+           <input type="button" value="/" id="" class="w-14 h-12 text-center bg-slate-500 text-yellow-100 font-bold text-3xl hover:bg-red-500 hover:text-blue-400 duration-500" onclick="calculator('/')">
+           <input type="button" value="7" id="" class="w-14 h-12 text-center bg-slate-500 text-yellow-100 font-bold text-3xl hover:bg-red-500 hover:text-blue-400 duration-500" onclick="calculator('7')">
+           <input type="button" value="8" id="" class="w-14 h-12 text-center bg-slate-500 text-yellow-100 font-bold text-3xl hover:bg-red-500 hover:text-blue-400 duration-500" onclick="calculator('8')">
+           <input type="button" value="9" id="" class="w-14 h-12 text-center bg-slate-500 text-yellow-100 font-bold text-3xl hover:bg-red-500 hover:text-blue-400 duration-500" onclick="calculator('9')">
+           <input type="button" value="*" id="" class="w-14 h-12 text-center bg-slate-500 text-yellow-100 font-bold text-3xl hover:bg-red-500 hover:text-blue-400 duration-500" onclick="calculator('*')">
+           <input type="button" value="4" id="" class="w-14 h-12 text-center bg-slate-500 text-yellow-100 font-bold text-3xl hover:bg-red-500 hover:text-blue-400 duration-500" onclick="calculator('4')">
+           <input type="button" value="5" id="" class="w-14 h-12 text-center bg-slate-500 text-yellow-100 font-bold text-3xl hover:bg-red-500 hover:text-blue-400 duration-500" onclick="calculator('5')">
+           <input type="button" value="6" id="" class="w-14 h-12 text-center bg-slate-500 text-yellow-100 font-bold text-3xl hover:bg-red-500 hover:text-blue-400 duration-500" onclick="calculator('6')">
+           <input type="button" value="-" id="" class="w-14 h-12 text-center bg-slate-500 text-yellow-100 font-bold text-3xl hover:bg-red-500 hover:text-blue-400 duration-500" onclick="calculator('-')">
+           <input type="button" value="1" id="" class="w-14 h-12 text-center bg-slate-500 text-yellow-100 font-bold text-3xl hover:bg-red-500 hover:text-blue-400 duration-500" onclick="calculator('1')">
+           <input type="button" value="2" id="" class="w-14 h-12 text-center bg-slate-500 text-yellow-100 font-bold text-3xl hover:bg-red-500 hover:text-blue-400 duration-500" onclick="calculator('2')">
+           <input type="button" value="3" id="" class="w-14 h-12 text-center bg-slate-500 text-yellow-100 font-bold text-3xl hover:bg-red-500 hover:text-blue-400 duration-500" onclick="calculator('3')">
+           <input type="button" value="+" id="" class="w-14 h-12 text-center bg-slate-500 text-yellow-100 font-bold text-3xl hover:bg-red-500 hover:text-blue-400 duration-500" onclick="calculator('+')">
+           <input type="button" value="A" id="" class="w-14 h-12 text-center bg-slate-500 text-yellow-100 font-bold text-3xl hover:bg-red-500 hover:text-blue-400 duration-500" onclick="calculator('A')">
+           <input type="button" value="0" id="" class="w-14 h-12 text-center bg-slate-500 text-yellow-100 font-bold text-3xl hover:bg-red-500 hover:text-blue-400 duration-500" onclick="calculator('0')">
+           <input type="button" value="." id="" class="w-14 h-12 text-center bg-slate-500 text-yellow-100 font-bold text-3xl hover:bg-red-500 hover:text-blue-400 duration-500" onclick="calculator('.')">
+           <input type="button" value="=" id="" class="w-14 h-12 text-center bg-slate-500 text-yellow-100 font-bold text-3xl hover:bg-black hover:text-white duration-500" onclick="answer()">
+           
+           
+   
+         
+            
+      </div>
+
+</section>
+
+  <script src="index.js"></script>
+</body>
+</html>
