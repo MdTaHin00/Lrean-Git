@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Reservation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+
+  <form  action="https://formspree.io/f/{form_id}" method="post">
+
+  <div class="h-[700px] bg-violet-400 w-[460px] flex justify-center items-center mx-auto rounded-xl">
+    <div  class=" flex items-center justify-center min-h-screen ">
+       
+      <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+        <h2 class="text-2xl font-semibold mb-4 text-indigo-800 italic ">Restaurant Reservation</h2>
+        <form>
+          <div class="flex gap-3">
+            <div class="mb-4">
+              <label class="block text-gray-700">Name</label>
+              <input type="text" class="w-full px-4 py-2  rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 border-indigo-800 border-2 
+    text-indigo-800" placeholder="First Name">
+          </div>
+          <div class="mb-4">
+            <input type="text" class="w-full px-4 py-2  rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 mt-6 border-indigo-800 
+    border-2 text-indigo-800" placeholder="Last Name">
+          </div>
+          </div>
+           
+            <div class="flex gap-3">
+              <div class="mb-4">
+                <label class="block text-gray-700">Email</label>
+                <input type="email" class="w-full px-4 py-2  rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 border-indigo-800 
+    border-2 text-indigo-800" placeholder="Your Email">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700">Phone</label>
+                <input type="number" class="w-full px-4 py-2  rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 border-indigo-800 
+    border-2 text-indigo-800" placeholder="Your Phone Number">
+            </div>
+            </div>
+           <div class="flex gap-3">
+            <div class="mb-4">
+              <label class="block text-gray-700">Date</label>
+              <input type="date" class="w-full px-6 py-2  rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 border-indigo-800 border-2 
+    text-indigo-800">
+          </div>
+          <div class="mb-4">
+              <label class="block text-gray-700">Time</label>
+              <input type="time" class="w-full px-10 py-2  rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 border-indigo-800 border-2 
+    text-indigo-800">
+          </div>
+           </div>
+           
+            <div class="mb-4">
+                <label class="block text-gray-700">How many person will you br with?</label>
+                <input type="text" min="1" class="w-full px-4 py-2  rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 border-indigo-800 
+    border-2 text-indigo-800" placeholder="">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700">Note</label>
+                <textarea class="w-full px-4 py-2  rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 border-indigo-800 border-2" 
+    rows="3" placeholder=""></textarea>
+            </div>
+            <button type="submit" class="w-full bg-indigo-800 text-white py-2 rounded-lg hover:bg-indigo-600 transition">SEND</button>
+        </form>
+    </div>
+    </div>
+    </div>
+    
+</form>
+
+
+
+</body>
+</html>
