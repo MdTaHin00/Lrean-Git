@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+ <style type="text/tailwindcss">
+    @layer components{
+       .main{
+        @apply bg-[#1B263B] min-h-[500px]
+       }
+
+       .text{
+        @apply text-center text-white pt-8 text-4xl italic pb-4
+       }
+       .input{
+        @apply w-[450px] h-14 px-3 rounded-md  
+       }
+      .btn{
+      @apply bg-[#A8DADC] absolute top-0 right-0 h-full rounded-md text-xl px-4 hover:bg-[#acc6c7] duration-700
+          }
+      .addlist{
+        @apply border-2 mt-5 w-[90%] mx-auto border-lime-600 min-h-[300px]
+      } 
+      .item-add{
+        @apply grid grid-cols-4 gap-1 px-1
+      } 
+      .list-image{
+        @apply w-[250px] rounded-3xl drop-shadow-2xl
+      } 
+    }
+
+ </style>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+  body{
+    font-family: "Montserrat", serif;
+  }
+  </style>
+
+<div class="main">
+    <h1 class="text">Search For Coktails Name</h1>
+    <div class="relative w-[450px] mx-auto ">
+        <input type="text"
+         placeholder="Search Cocktail ...." 
+         class="input" id="input" value="">
+         <button class="btn" id="btn">Search</button>
+    </div>
+    <div class="addlist">
+       <h2 class="text hidden text-center" id="text">No Coktails</h2>
+       <h2 class="text pt-1 font-mono " id="list"></h2>
+       <div class="item-add" id="item-add" >
+
+        <!-- <div class="border border-orange-300 overflow-hidden py-5 text-center"> -->
+          <!-- <img src="https://www.themealdb.com/images/media/meals/x2fw9e1560460636.jpg" alt="" class="rounded-full p-3"> -->
+          <!-- <h2 class="text-yellow-200 mb-3 text-center">Leblebi Soup</h2> -->
+           <!-- <p class="text-sm text-blue-50 mb-1 text-center">Heat the oil in a large pot.Add the onine and cook until translucent.Drai the soaked  -->
+          <!-- chickpeas a...</p>  -->
+          <!-- <p><span class="text-gray-500 ">Tunisian</span> <span class="text-gray-400">Vegetarian</span></p> -->
+          <!-- <div class="mt-4 "> -->
+           <!-- <a href="#" class="bg-orange-500 px-4 py-2 rounded-xl text-yellow-100">Watch</a> -->
+           <!-- <button class="text-slate-200 italic">View </button> -->
+          <!-- </div> -->
+<!--            -->
+       <!-- </div> -->
+
+
+
+
+    </div>
+    </div>
+    <div class="pop invisible" id="pop" >
+      <!-- <div id="modal" class="fixed inset-0 flex items-center justify-center  bg-[#cbd5e178] W-[70%]"> -->
+        <!-- <div class="bg-white rounded-lg shadow-xl w-[80%] p-6 absolute top-20 left-[10%] h-auto " id="addveiws"> -->
+          <!-- <h2 class="text-xl font-bold text-gray-800 mb-4 mt">Pop-up Modal</h2> -->
+          <!-- <img src="https://www.themealdb.com/images/media/meals/x2fw9e1560460636.jpg" alt="" srcset="" class="list-image"> -->
+          <!-- <p class="text-gray-600 mb-6 mt-3">This is a simple pop-up modal created using Tailwind CSS. You can customize it as per your needs.</p> -->
+          <!-- <div class="flex gap-4"> -->
+            <!-- <h2 class="text-xl  text-gray-900 mb-4">Pop-up Modal</h2> -->
+            <!-- <h2 class="text-xl  text-gray-900  -->
+             <!-- mb-4">Pop-up Modal</h2> -->
+             <!-- <h2 class="text-xl  text-gray-900  -->
+             <!-- mb-4">Pop-up Modal</h2> -->
+          <!-- </div> -->
+<!--            -->
+          <!-- <div class="flex justify-end gap-5"> -->
+            <!-- <button id="closeModal" class="px-4 py-2  -->
+            <!-- bg-gray-300 text-gray-700 rounded-lg  -->
+            <!-- hover:bg-gray-400" > -->
+               <!-- Close -->
+             <!-- </button> -->
+          <!-- </div> -->
+        <!-- </div> -->
+      <!-- </div> -->
+    </div>
+
+
+</div>       
+
+  <script src="apps.js"></script>
+</body>
+</html>
