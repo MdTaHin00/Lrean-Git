@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="body-color">
+<style type="text/tailwindcss">
+@layer components{
+  .body-color{
+  @apply bg-slate-200
+}
+
+.nav-a{
+  @apply hover:text-[#1A5EFF] duration-300
+}
+.get-btn{
+  @apply bg-[#1A5EFF] px-3 py-3 text-white rounded-2xl hover:bg-black duration-700
+}
+.small-img{
+  @apply rounded-full h-20 w-20 object-cover border-2 border-blue-400
+}
+.icon-img{
+  @apply w-[40px]
+}
+.bacground{
+  @apply bg-white rounded-xl  px-6 py-8 hover:rotate-2 duration-500
+}
+
+.three-h1{
+  @apply py-6 font-bold text-xl
+}
+.three-p{
+  @apply text-slate-400 pb-5
+}
+.three-right-img{
+  @apply bg-[#c8d5f4] h-7 w-7 rounded-lg
+}
+}
+.three-a{
+  @apply text-[#1A5Eff]
+}
+
+
+
+
+
+</style>
+
+
+      <!-- header -->
+<header >
+  <div class="text-center bg-[#1A5EFF] h-[40px] hover:bg-black duration-500 fixed w-full pt-2 " >
+     <h2 class="text-white font-[300] ">Accepting 4 new clients.<span class="font-bold">Get started now.</span></h2>
+  </div>
+  <nav class="flex justify-around py-10 h-[140px] items-center ">
+    <!-- nav-image -->
+     <div >
+        <img src="image\WvIxk2OsDPSdCdejZp7vMsFKbs.svg" alt="" width="80px">
+     </div>
+        <!-- nav-list -->
+      <ul class="sm:flex gap-5 hidden ">
+        <li><a href="#" class="nav-a">Home</a></li>
+        <li><a href="#" class="nav-a">About Us</a></li>
+        <li><a href="#" class="nav-a">Blog</a></li>
+      </ul>
+      <!-- nav-button -->
+      <div class="sm:flex  hidden " >
+           <a href="#" class="get-btn">Get Started</a>
+      </div>
+       <!-- humberger add-->
+ <div class="sm:hidden ">
+  <img src="image/bx-menu.svg" alt="" width="40px">
+ </div>
+ <!-- humberger close -->
+  <div class="hidden">
+   <img src="image/close.png" alt="">
+  </div>
+  </nav>
+ 
+  <!-- hero-contant -->
+ <div class="text-center px-10 py-10">
+    <h1 class="sm:text-6xl font-bold  text-4xl">Save time & <span class="text-[#1A5EFF]">work smarter</span> with AI Automation</h1>
+    <p class="text-slate-400 px-36 py-10">We help you automate your workflows, automate repetitive tasks, and elevate your business.</p>
+    <a href="#" class="get-btn">Book Your Free Audit call</a>
+ </div>
+ 
+    <!-- samll-image -->
+     <div class="sm:w-[500px]  relative sm:mx-auto  ml-10">
+      <div class="flex">
+        <div class="absolute ">
+          <img src="image/sFJggTzla8eMLg8n1AbKDQlyulU.jpg" alt="" srcset="" width="100px" class="small-img">
+          </div>
+       
+        <div class="absolute left-10">
+          <img src="image/JhbGle453RWF0QjzZnSxbtxRBiA.jpg" alt="" srcset="" class="small-img">
+        </div>
+      <div class="absolute left-24">
+        <img src="image/hCsV8dkBKP9VEaaIlJr8Bk89bX4.jpg" alt="" srcset="" 
+     class="small-img">
+      </div>
+        <div class="absolute left-48 mt-4">
+          <h1>200+ happy clients</h1>
+          <div class="flex gap-2">
+            <p>Join them now</p>
+            <img src="image/right-arrow.png" alt="" width="20px">
+          </div>
+        </div>
+      </div>
+     </div>
+
+   <div class="absolute top-0 -z-10">
+     <img src="image\BByKiThYR6TZVIEQlbwxH7IWUwY (1).svg" alt="" srcset="">
+   </div>
+</header>
+
+       <!-- image-content -->
+<section>
+   <div class="px-5 mt-32 sm:px-28">
+    <img src="image/maxresdefault.webp" alt="" srcset="" class="rounded-3xl">
+   </div>
+   
+</section>
+
+<section class=" w-[80%] overflow-hidden mx-auto">
+  <div class="relative w-[900px] glide-09 ">
+    <!-- Slides -->
+    <div data-glide-el="track">
+        <ul class="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex  overflow-hidden p-0 pb-12 ">
+            <li>
+                <img src="https://Tailwindmix.b-cdn.net/carousel/logos/carousel-logo-image-1.svg" />
+            </li>
+            <li>
+                <img src="https://Tailwindmix.b-cdn.net/carousel/logos/carousel-logo-image-2.svg" class=" " />
+            </li>
+            <li>
+                <img src="https://Tailwindmix.b-cdn.net/carousel/logos/carousel-logo-image-3.svg" class="" />
+            </li>
+            <li>
+                <img src="https://Tailwindmix.b-cdn.net/carousel/logos/carousel-logo-image-4.svg" class=" " />
+            </li>
+            <li>
+                <img src="https://Tailwindmix.b-cdn.net/carousel/logos/carousel-logo-image-5.svg" class="" />
+            </li>
+            <li>
+                <img src="https://Tailwindmix.b-cdn.net/carousel/logos/carousel-logo-image-6.svg" class="" />
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
+
+<script>
+    var glide09 = new Glide('.glide-09', {
+        type: 'carousel',
+        autoplay: 1,
+        animationDuration: 4500,
+        animationTimingFunc: 'linear',
+        perView: 3,
+        classes: {
+            activeNav: '[&>*]:bg-slate-700',
+        },
+        breakpoints: {
+            1024: {
+                perView: 2
+            },
+            640: {
+                perView: 1,
+                gap: 36
+            }
+        },
+    });
+
+    glide09.mount();
+</script>
+<!-- End Logos carousel -->
+</section>
+
+
+<section class="three mt-10">
+
+  <div class="text-center mb-8">
+    <a href="#" class="get-btn bg-white text-[#1A5Eff]">SERVICES</a>
+  </div>
+  <h1 class="text-5xl font-medium title-font text-[#1A5Eff]  text-center">Testimonials</h1>
+  <h1 class="text-5xl font-medium title-font text-black mb-12 text-center">automation services</h1>
+    
+  <div class="grid md:grid-cols-2 mx-5 gap-5 grid-cols-1">
+    <div class="bacground">
+      <div>
+        <img src="image/speech-bubble.png" alt="" srcset="" class="icon-img">
+      </div>
+      <h1 class="three-h1">Customer Support Chatbots</h1>
+      <p class="three-p">Streamline operations and enhance productivity with AI-driven automation.</p>
+      <div class="flex gap-2">
+        <a href="" class="three-a">Learn More</a>
+        <img src="image/next.png" alt="" srcset="" width="20px" class="three-right-img">
+      </div>
+    </div>
+
+     <div class="bacground">
+    <div>
+      <img src="image/airplane.png" alt="" srcset="" class="icon-img">
+    </div>
+    <h1  class="three-h1">Workflow Automations</h1>
+    <p class="three-p">Cut down on manual labor costs through efficient and precise automated processes.</p>
+    <div  class="flex gap-2">
+      <a href="" class="three-a">Learn More</a>
+      <img src="image/next.png" alt="" 
+  srcset="" width="20px" class="three-right-img">
+    </div>
+  </div>
+  <div  class="bacground">
+  <div>
+    <img src="image/diagram.png" alt="" srcset="" class="icon-img">
+  </div>
+  <h1 class="three-h1">Chatbots for Internal Use</h1>
+  <p class="three-p">Automate tasks to ensure your business operates seamlessly around the clock.</p>
+  <div  class="flex gap-2">
+    <a href="" class="three-a">Learn More</a>
+    <img src="image/next.png" alt="" 
+srcset="" width="20px" class="three-right-img">
+  </div>
+</div>
+<div  class="bacground">
+<div>
+  <img src="image/dimensions.png" alt="" srcset="" class="icon-img">
+</div>
+<h1 class="three-h1">Custom GPTs</h1>
+<p class="three-p">Harness the power of AI for in-depth analytics and informed decision-making.</p>
+<div  class="flex gap-2">
+  <a href="" class="three-a">Learn More</a>
+  <img src="image/next.png" alt="" 
+srcset="" width="20px" class="three-right-img">
+</div>
+</div>
+
+
+  </div>
+
+</section>
+
+
+<section class="mt-28 text-center   sm:flex ">
+  <div>
+    <a href=""class="get-btn bg-white text-[#1A5Eff]">CONTENT BLOCK</a>
+    <h1 class="text-4xl font-medium title-font text-black my-8 px-10" >Workflows with our AI automation <span class=" text-[#1A5Eff]"> expertise</span></h1>
+    <p class="px-10 text-slate-700">Revolutionize tasks, reduce errors, and boost efficiency with intelligent technology, streamlining operations 
+for unparalleled productivity.</p>
+    <div class="w-[30px] h-[30px]  border-2 border-black flex justify-center items-center rounded-full mx-auto my-4">
+      <img src="image/check.png" alt="" class="w-[10px] ">
+    </div>
+    <h2>Functional sections</h2>
+    <div class="w-[30px] h-[30px]  border-2 border-black flex justify-center items-center rounded-full mx-auto my-4">
+      <img src="image/check.png" alt=""  class="w-[10px] ">
+    </div>
+    <h2 class="mb-10">Easy to customize</h2>
+    <a href="" class="get-btn">Book Your Free Audit Call</a>
+  </div>
+  <div class="mt-20 sm:mt-0">
+    <img src="image/RIu7ujIfc3SKq931mOnyFqKaEaY.png" alt="" srcset="">
+  </div>
+ 
+ 
+</section>
+
+
+<section class="mt-36 sm:flex">
+
+
+  <div class="">
+    <img src="image/cbIdsCeoBI32SK33j3fHyQ7Fb4.png" alt="" srcset="">
+  </div>
+
+  <div class="">
+    <a href=""class="get-btn bg-white text-[#1A5Eff]">CONTENT BLOCK</a>
+    <h1 class="text-4xl font-medium title-font text-black my-8 " >Harnessing AI for business success</h1>
+    <div class="flex hover:bg-[#1A5EFF] hover:rounded-2xl duration-300 mx-5">
+      <div class="bg-white h-[60px] w-[60px] flex justify-center items-center rounded-2xl">
+        <img src="image/download (4).svg" alt="" width="40px" class="  h-[40px] w-[40px]">
+      </div>
+      <h1 class="hover:text-white px-5">Boost efficiency and cut costs with Al-powered automation</h1>
+      <div class="w-[30px] h-[30px]  border-2  border-black flex justify-center items-center  rounded-full mx-auto my-4 hover:border-2 hover:border-white">
+           <img src="image/check.png" alt=""  class="w-[10px] ">
+         </div>
+    </div>
+  
+
+  <div class="flex hover:bg-[#1A5EFF] hover:rounded-2xl duration-300 mx-5 my-10">
+    <div  class="bg-white h-[60px] w-[60px] flex justify-center items-center rounded-2xl">
+      <img src="image/download (3).svg" alt="" width="40px" class="  h-[40px] w-[40px]">
+    </div>
+    <h1 class="hover:text-white px-5"> Optimize operations, minimize errors,and save ressources</h1>
+    <div class="w-[30px] h-[30px]  border-2 
+    border-black flex justify-center items-center 
+    rounded-full mx-auto my-4">
+         <img src="image/check.png" alt=""  class="w-[10px] ">
+       </div>
+  </div>
+  <h2 class="mb-10 text-slate-500">“Couldn’t be happier with the work the guys from XYZ Agency did for us. Made sales 10x more efficient.”</h2>
+  <div class="flex gap-4">
+    <img src="image/G3MEsoXQjALKfj8Ya1mIWgFMuc.jpg" alt="" class="w-[50px] h-[50px] object-cover rounded-full">
+    <div>
+      <h1>William James</h1>
+      <p>CEO,XYZ</p>
+    </div>
+  </div>
+ </div>
+</section>
+
+<section class="mt-20">
+  <div class="text-center mb-8">
+    <a href="#" class="get-btn bg-white text-[#1A5Eff]">TESTIMONIALS</a>
+  </div>
+  
+  <h1 class="text-5xl font-medium title-font text-black mb-12 text-center">Leading the way in AI automation</h1>
+</section>
+
+
+<section class="mt-10  w-[90%]  mx-auto overflow-hidden">
+  <!-- Component: Testimonial carousel -->
+<div class="relative w-full glide-08">
+  <!-- Slides -->
+  <div data-glide-el="track">
+      <ul class="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0 pb-12">
+          <li>
+              <div class="w-full h-full">
+                  <!-- Start Testimonial -->
+                  <div class="h-full overflow-hidden bg-white rounded shadow-2xl text-slate-500 shadow-slate-200">
+                      <div class="relative p-6">
+                          <figure class="relative z-10">
+                              <blockquote class="p-6 text-lg leading-relaxed">
+                                  <p>Wind-ui, is probably one of the best libraries I've came across. Good looking, easy to use and above all super accessible.</p>
+                              </blockquote>
+                              <figcaption class="flex flex-col items-start gap-2 p-6 pt-0 text-sm text-emerald-500">
+                                  <span class="flex gap-1 text-amber-400" role="img" aria-label="Rating: 3 out of 5 stars">
+                                      <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                          </svg>
+                                      </span>
+                                      <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                          </svg>
+                                      </span>
+                                      <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                          </svg></span>
+                                      <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                          </svg></span>
+                                      <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                              <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                          </svg>
+                                      </span>
+                                  </span>
+                                  <div class="flex items-center gap-4 pt-4 text-sm text-emerald-500">
+                                      <img src="https://i.pravatar.cc/40?img=11" alt="user name" title="user name" width="48" height="48" class="max-w-full rounded-full shrink-0" />
+                                      <div class="flex flex-col gap-1">
+                                          <span class="font-bold uppercase">Bill Gates</span>
+                                          <cite class="not-italic"><a href="http://www.microsoft.com">CEO, Microsoft</a></cite>
+                                      </div>
+                                  </div>
+                              </figcaption>
+                          </figure>
+                      </div>
+                  </div>
+                  <!-- End Testimonial -->
+              </div>
+          </li>
+          <li>
+              <div class="w-full h-full">
+                  <!-- Start Testimonial -->
+                  <div class="h-full overflow-hidden bg-white rounded shadow-2xl text-slate-500 shadow-slate-200">
+                      <div class="relative p-6">
+                          <figure class="relative z-10">
+                              <blockquote class="p-6 text-lg leading-relaxed">
+                                  <p>Wind-ui components come with proper attributes to ensure full accessibility with the WAI-ARIA standards.</p>
+                              </blockquote>
+                              <figcaption class="flex flex-col items-start gap-2 p-6 pt-0 text-sm text-emerald-500">
+                                  <span class="flex gap-1 text-amber-400" role="img" aria-label="Rating: 3 out of 5 stars">
+                                      <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                          </svg>
+                                      </span>
+                                      <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                          </svg>
+                                      </span>
+                                      <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                          </svg></span>
+                                      <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                          </svg></span>
+                                      <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                              <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                          </svg>
+                                      </span>
+                                  </span>
+                                  <div class="flex items-center gap-4 pt-4 text-sm text-emerald-500">
+                                      <img src="https://i.pravatar.cc/40?img=25" alt="user name" title="user name" width="48" height="48" class="max-w-full rounded-full shrink-0" />
+                                      <div class="flex flex-col gap-1">
+                                          <span class="font-bold uppercase">Jane Smith</span>
+                                          <cite class="not-italic"><a href="http://www.microsoft.com">WAI-ARIA, Representative</a></cite>
+                                      </div>
+                                  </div>
+                              </figcaption>
+                          </figure>
+                      </div>
+                  </div>
+                  <!-- End Testimonial -->
+              </div>
+          </li>
+          <li>
+              <div class="w-full h-full">
+                  <!-- Start Testimonial -->
+                  <div class="h-full overflow-hidden bg-white rounded shadow-2xl text-slate-500 shadow-slate-200">
+                      <div class="relative p-6">
+                          <figure class="relative z-10">
+                              <blockquote class="p-6 text-lg leading-relaxed">
+                                  <p>You can easily communicate with Wind-ui's team for support through their discord channel. They are responsive and ultra helpful guys!</p>
+                              </blockquote>
+                              <figcaption class="flex flex-col items-start gap-2 p-6 pt-0 text-sm text-emerald-500">
+                                  <span class="flex gap-1 text-amber-400" role="img" aria-label="Rating: 3 out of 5 stars">
+                                      <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                          </svg>
+                                      </span>
+                                      <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                          </svg>
+                                      </span>
+                                      <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                          </svg></span>
+                                      <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                          </svg></span>
+                                      <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                              <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                          </svg>
+                                      </span>
+                                  </span>
+                                  <div class="flex items-center gap-4 pt-4 text-sm text-emerald-500">
+                                      <img src="https://i.pravatar.cc/40?img=7" alt="user name" title="user name" width="48" height="48" class="max-w-full rounded-full shrink-0" />
+                                      <div class="flex flex-col gap-1">
+                                          <span class="font-bold uppercase">Arnold Jones</span>
+                                          <cite class="not-italic"><a href="http://www.microsoft.com">Software Engineer</a></cite>
+                                      </div>
+                                  </div>
+                              </figcaption>
+                          </figure>
+                      </div>
+                  </div>
+                  <!-- End Testimonial -->
+              </div>
+          </li>
+      </ul>
+  </div>
+  <!-- Indicators -->
+  <div class="flex items-center justify-center w-full gap-2 -mt-6" data-glide-el="controls[nav]">
+      <button class="p-4 group" data-glide-dir="=0" aria-label="goto slide 1"><span class="block w-2 h-2 transition-colors duration-300 rounded-full opacity-70 ring-1 ring-slate-700 bg-white/20 focus:outline-none"></span></button>
+      <button class="p-4 group" data-glide-dir="=1" aria-label="goto slide 2"><span class="block w-2 h-2 transition-colors duration-300 rounded-full opacity-70 ring-1 ring-slate-700 bg-white/20 focus:outline-none"></span></button>
+      <button class="p-4 group" data-glide-dir="=2" aria-label="goto slide 3"><span class="block w-2 h-2 transition-colors duration-300 rounded-full opacity-70 ring-1 ring-slate-700 bg-white/20 focus:outline-none"></span></button>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
+
+<script>
+  var glide07 = new Glide('.glide-08', {
+      type: 'carousel',
+      focusAt: 1,
+      animationDuration: 2000,
+      autoplay: 4500,
+      autoplay: true,
+      rewind: true,
+      perView: 2,
+      gap: 48,
+      classes: {
+          activeNav: '[&>*]:bg-slate-700',
+      },
+      breakpoints: {
+          1024: {
+              perView: 2
+          },
+          640: {
+              perView: 1
+          }
+      },
+  });
+
+  glide07.mount();
+</script>
+<!-- End Testimonial carousel -->
+</section>
+
+<section class="grid sm:grid-cols-2 overflow-hidden p-10 sm:p-0">
+  <div class="sm:mt-[400px]">
+    <div class=" px-10 py-10 ">
+      <div class=" mb-8">
+        <a href="#" class="get-btn bg-white text-[#1A5Eff]">PROCESS</a>
+      </div>
+      <h1 class="sm:text-6xl font-bold  text-4xl">Book a discovery call </h1>
+      <p class="text-slate-400  py-6">Unleash the power of AI automation to transform routine processes, ensuring precision, 24/7 availability, and significant cost savings.</p>
+      <a href="#" class="get-btn">Book Your Free Audit call</a>
+   </div>
+  </div>
+
+  <div> 
+    <div class="bacground mt-5">
+     <h1 class="text-3xl font-bold text-[#1A5EFF]">01</h1>
+      <h1 class="three-h1">Book a discovery call</h1>
+      <p class="three-p">Book your free discovery call by clicking one of the buttons on this page.</p>
+      <div class="flex gap-2">
+        <a href="" class="three-a font-semibold">Get Stared</a>
+        <img src="image/next.png" alt="" srcset="" width="20px" class="three-right-img">
+      </div>
+    </div>
+
+    <div class="bacground mt-5">
+      <h1 class="text-3xl font-bold text-[#1A5EFF]">02</h1>
+       <h1 class="three-h1">Get a personal growth strategy</h1>
+       <p class="three-p">On this call, we'll assess your business and start working on your personal growth strategy.</p>
+       <div class="flex gap-2">
+         <a href="" class="three-a font-semibold">Get Stared</a>
+         <img src="image/next.png" alt="" srcset="" width="20px" class="three-right-img">
+       </div>
+     </div>
+
+     <div class="bacground mt-5">
+      <h1 class="text-3xl font-bold text-[#1A5EFF]">03</h1>
+       <h1 class="three-h1">Onboarding</h1>
+       <p class="three-p">After the strategy is complete, we will onboard you onto our softwares to ensure a smooth process.</p>
+       <div class="flex gap-2">
+         <a href="" class="three-a font-semibold">Get Stared</a>
+         <img src="image/next.png" alt="" srcset="" width="20px" class="three-right-img">
+       </div>
+     </div>
+
+     <div class="bacground mt-5">
+      <h1 class="text-3xl font-bold text-[#1A5EFF]">04</h1>
+       <h1 class="three-h1">Implementation & results</h1>
+       <p class="three-p">And finally, we get to implementing the growth strategy and working to see results.</p>
+       <div class="flex gap-2">
+         <a href="" class="three-a font-semibold">Get Stared</a>
+         <img src="image/next.png" alt="" srcset="" width="20px" class="three-right-img">
+       </div>
+     </div>
+
+  </div>
+</section>
+
+<section class="text-center mt-20">
+  <div class=" mb-8">
+    <a href="#" class="get-btn bg-white
+  text-[#1A5Eff]">PRICING</a>
+  <h1 class="sm:text-6xl font-bold  
+text-4xl mt-4">Plans to Fit Your Business </h1>
+  </div>
+</section>
+
+<section class="grid sm:grid-cols-3 mt-20 sm:w-[75%] mx-auto gap-3">
+    <!-- Component: Basic Pricing Table with Details -->
+<div class="max-w-sm mx-auto overflow-hidden bg-white rounded shadow-lg text-slate-500 shadow-slate-200 lg:max-md-full">
+  <div class="flex flex-col">
+    <header class="flex flex-col gap-6 p-6 text-slate-400">
+      <h3 class="text-xl font-bold text-slate-700">
+        Pro
+        
+      </h3>
+      <h4>
+        <span class="text-3xl">$</span>
+        <span class="text-5xl font-bold tracking-tighter transition-all duration-300 text-slate-700 lg:text-6xl">199</span>
+        <span class=" font-bold text-black text-2xl">/m</span>
+        <span class="block text-sm font-normal text-slate-400 mt-3">Ideal for individual developers</span>
+      </h4>
+      <button class="inline-flex items-center justify-center w-full h-12 gap-2 px-6 text-sm font-medium tracking-wide text-white transition duration-300 rounded shadow-lg whitespace-nowrap bg-[#1A5EFF] shadow-emerald-100 hover:bg-[#7693d8] hover:shadow-md hover:shadow-emerald-100 focus:bg-emerald-700 
+      focus:shadow-md focus:shadow-emerald-100 focus-visible:outline-none">
+        <span>Get Stared</span>
+      </button>
+    </header>
+    <div class="p-6">
+      <ul class="space-y-4">
+        <li class="flex items-start gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 p-1 shrink-0 text-[#1A5EFF]" aria-hidden="true">
+            <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0
+            10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
+          </svg>
+          Feature here
+        </li>
+        <li class="flex items-start gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 p-1 shrink-0 text-[#1A5EFF]" aria-hidden="true">
+            <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0
+            10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
+          </svg>
+          Feature here
+        </li>
+      </ul>
+    </div>
+    <footer class="p-6 text-sm text-center border-t border-slate-200 bg-slate-100">
+      <a class="transition-colors duration-300 text-[#1A5EFF] hover:text-[#7697e3] focus:text-emerald-700" href="#">Option Add On</a>
+    </footer>
+  </div>
+</div>
+
+<div class="max-w-sm mx-auto overflow-hidden bg-white rounded shadow-lg text-slate-500 shadow-slate-200 lg:max-md-full">
+  <div class="flex flex-col">
+    <header class="flex flex-col gap-6 p-6 text-slate-400">
+      <h3 class="text-xl font-bold text-slate-700">
+        Premium
+        
+      </h3>
+      <h4>
+        <span class="text-3xl">$</span>
+        <span class="text-5xl font-bold tracking-tighter transition-all duration-300 text-slate-700 lg:text-6xl">499</span>
+        <span class=" font-bold text-black text-2xl">/m</span>
+        <span class="block text-sm font-normal text-slate-400 mt-3">Ideal for individual developers</span>
+      </h4>
+      <button class="inline-flex items-center justify-center w-full h-12 gap-2 px-6 text-sm font-medium tracking-wide text-white transition duration-300 rounded 
+shadow-lg whitespace-nowrap bg-[#1A5EFF] shadow-emerald-100 hover:bg-[#7693d8] hover:shadow-md hover:shadow-emerald-100 focus:bg-emerald-700 
+      focus:shadow-md focus:shadow-emerald-100 focus-visible:outline-none">
+        <span>Get Stared</span>
+      </button>
+    </header>
+    <div class="p-6">
+      <ul class="space-y-4">
+        <li class="flex items-start gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 p-1 shrink-0 text-[#1A5EFF]" aria-hidden="true">
+            <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0
+            10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
+          </svg>
+          Feature here
+        </li>
+        <li class="flex items-start gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 p-1 shrink-0 text-[#1A5EFF]" aria-hidden="true">
+            <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0
+            10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
+          </svg>
+          Feature here
+        </li>
+      </ul>
+    </div>
+    <footer class="p-6 text-sm text-center border-t border-slate-200 bg-slate-100">
+      <a class="transition-colors duration-300 text-[#1A5EFF] hover:text-[#7697e3] focus:text-emerald-700" href="#">Option Add On</a>
+    </footer>
+  </div>
+</div>
+<!-- End Basic Pricing Table with Details -->
+
+<div class="max-w-sm mx-auto overflow-hidden bg-white rounded shadow-lg text-slate-500 shadow-slate-200 lg:max-md-full">
+  <div class="flex flex-col">
+    <header class="flex flex-col gap-6 p-6 text-slate-400">
+      <h3 class="text-xl font-bold text-slate-700">
+        Pro
+        
+      </h3>
+      <h4>
+        <span class="text-3xl">$</span>
+        <span class="text-5xl font-bold tracking-tighter transition-all duration-300 text-slate-700 lg:text-6xl">199</span>
+        <span class="text-sm font-bold text-black text-2xl">/m</span>
+        <span class="block text-sm font-normal text-slate-400 mt-3">Ideal for individual developers.</span>
+      </h4>
+      <button class="inline-flex items-center justify-center w-full h-12 gap-2 px-6 text-sm font-medium tracking-wide text-white transition duration-300 rounded 
+shadow-lg whitespace-nowrap bg-[#1A5EFF] shadow-emerald-100 hover:bg-[#7693d8] hover:shadow-md hover:shadow-emerald-100 focus:bg-emerald-700 
+      focus:shadow-md focus:shadow-emerald-100 focus-visible:outline-none">
+        <span>Get Stared</span>
+      </button>
+    </header>
+    <div class="p-6">
+      <ul class="space-y-4">
+        <li class="flex items-start gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 p-1 shrink-0 text-[#1A5EFF]" aria-hidden="true">
+            <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0
+            10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
+          </svg>
+          Feature here
+        </li>
+        <li class="flex items-start gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 p-1 shrink-0 text-[#1A5EFF]" aria-hidden="true">
+            <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0
+            10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
+          </svg>
+          Feature here
+        </li>
+      </ul>
+    </div>
+    <footer class="p-6 text-sm text-center border-t border-slate-200 bg-slate-100">
+      <a class="transition-colors duration-300 text-[#1A5EFF] hover:text-[#7697e3] focus:text-emerald-700" href="#">Option Add On</a>
+    </footer>
+  </div>
+</div>
+<!-- End Basic Pricing Table with Details -->
+<!-- End Basic Pricing Table with Details -->
+</section>
+
+<section class="text-center mt-20">
+  <div class=" mb-8">
+    <a href="#" class="get-btn bg-white
+  text-[#1A5Eff]">FAQ</a>
+  <h1 class="sm:text-6xl font-bold  
+text-4xl mt-4">You’ve got questions, we’ve got <span class="text-[#1A5Eff]">answers</span>
+</h1>
+  </div>
+</section>
+
+
+<section class="w-[80%] mx-auto">
+
+<!-- Component: Outline accordion -->
+<section class="w-full bg-white border divide-y rounded divide-slate-200 border-slate-200">
+  <details class="p-4 group" open>
+    <summary class="[&::-webkit-details-marker]:hidden relative pr-8 font-medium list-none cursor-pointer text-slate-700 focus-visible:outline-none transition-colors duration-300 group-hover:text-slate-900 ">
+    How can l tell if using Al is the right soluation for my problem?
+      <svg xmlns="http://www.w3.org/2000/svg" class="absolute right-0 w-4 h-4 transition duration-300 top-1 stroke-slate-700 shrink-0 group-open:rotate-45" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-labelledby="title-ac21 desc-ac21">
+        <title id="title-ac21">Open icon</title>
+        <desc id="desc-ac21">icon that represents the state of the summary</desc>
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+      </svg>
+    </summary>
+    <p class="mt-4 text-slate-500">
+      Wind UI team currently releases it's components on HTML and React, but also thinking on adding more in the future. You can easily toggle between the two languages through the code blocks, on each page component.
+    </p>
+  </details>
+  <details class="p-4 group">
+    <summary class="[&::-webkit-details-marker]:hidden relative pr-8 font-medium list-none cursor-pointer text-slate-700 focus-visible:outline-none transition-colors duration-300 group-hover:text-slate-900 ">
+      How long does an Al soluation take to implement?
+      <svg xmlns="http://www.w3.org/2000/svg" class="absolute right-0 w-4 h-4 transition duration-300 top-1 stroke-slate-700 shrink-0 group-open:rotate-45" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-labelledby="title-ac22 desc-ac22">
+        <title id="title-ac22">Open icon</title>
+        <desc id="desc-ac22">icon that represents the state of the summary</desc>
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+      </svg>
+    </summary>
+    <p class="mt-4 text-slate-500">
+      All our icons related ui components are using, heroicons SVG icons, by the makers of Tailwind CSS.
+    </p>
+  </details>
+  <details class="p-4 group">
+    <summary class="[&::-webkit-details-marker]:hidden relative pr-8 font-medium list-none cursor-pointer text-slate-700 focus-visible:outline-none transition-colors duration-300 group-hover:text-slate-900 ">
+      Will we need to make change in our teams?
+      <svg xmlns="http://www.w3.org/2000/svg" class="absolute right-0 w-4 h-4 transition duration-300 top-1 stroke-slate-700 shrink-0 group-open:rotate-45" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-labelledby="title-ac24 desc-ac24">
+        <title id="title-ac24">Open icon</title>
+        <desc id="desc-ac24">icon that represents the state of the summary</desc>
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+      </svg>
+    </summary>
+    <p class="mt-4 text-slate-500">
+      You can find all latest additions and updates in our Changelog page, where we have a detailed timeline for any changes.
+    </p>
+  </details>
+ 
+ 
+</section>
+<!-- End Outlined accordion -->
+</section>
+
+
+<section class="w-[95%] bg-sky-950 mx-auto rounded-2xl">
+
+   <div class="sm:w-[60%] text-center mx-auto">
+    <div class="sm:mt-[80px]">
+      <div class=" px-10 py-10 ">
+        <div class=" mb-8">
+          <a href="#" class="get-btn bg-slate-700 text-white">TESTIMONIALS</a>
+        </div>
+        <h1 class="sm:text-5xl font-bold  text-4xl text-white">Ready to <span class="text-[#1A5EFF]">Get Started?</span></h1>
+        <p class="text-yellow-50  py-6">Experience the future of business operations with AI automation—increased speed, accuracy, and adaptability, driving overall productivity gains.</p>
+        <a href="#" class="get-btn">Book Your Free Audit call</a>
+     </div>
+    </div>
+   </div>
+
+   <div class="sm:flex sm:justify-evenly">
+   <div  class="text-white">
+    <img src="image/WvIxk2OsDPSdCdejZp7vMsFKbs.svg" alt="" width="80px">
+   </div>
+   <h1 class="text-white">Build a powerful agency site with Framer.</h1>
+    <ul class="flex gap-4 ">
+      <li><a href="" class="text-white">About</a></li>
+      <li><a href="" class="text-white">ConTact</a></li>
+      <li><a href="" class="text-white">Blog</a></li>
+    </ul>
+
+  <div class="flex">
+
+  <div class="w-[40px] h-[40px] border-2 border-zinc-400 rounded-full flex justify-center items-center">
+    <img src="image/facebook.png" alt="" class="w-[20px] ">
+  </div>
+  <div class="w-[40px] h-[40px] border-2 border-zinc-400 rounded-full flex justify-center items-center">
+    <img src="image/linkedin.png" alt="" class="w-[20px] ">
+  </div>
+  <div class="w-[40px] h-[40px] border-2 border-zinc-400 rounded-full flex justify-center items-center">
+    <img src="image/twitter (1).png" alt="" class="w-[20px] ">
+  </div>
+
+  </div>
+        
+   </div>
+
+</section>
+<footer class="flex h-[50px] justify-between items-center px-20">
+  <h1>© Mont Limited 2023. All rights reserved.</h1>
+  <h2>Designed by Wize</h2>
+</footer>
+  <script src="apps.js"></script>
+</body>
+</html>
+
