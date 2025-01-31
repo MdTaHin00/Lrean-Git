@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+
+</head>
+<body>
+  
+<style type="text/tailwindcss">
+  @layer components{
+    .btn{
+      @apply 
+    }
+    .text{
+    @apply font-semibold text-3xl p-7 text-yellow-50 
+    }
+    .input{
+      @apply w-[400px] py-4 rounded-lg  px-2 
+    }
+    .btns{
+      @apply absolute top-0 right-0 bg-orange-400 h-full rounded-lg px-3 hover:bg-orange-300 duration-700}
+
+  }
+
+</style>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@703&display=swap');
+  body{
+    font-family: "Montserrat", serif;
+  }
+</style>
+
+
+<div class="text-center bg-slate-700 h-auto ">
+       <h1 class="text"> Search For Your Meal</h1>
+        <div class="relative w-[400px] m-auto">
+
+             <input type="text" class="input"
+             placeholder="Ex.. Chicken" id="input" value="">
+             <button class="btns" id="btn">Search</button>
+
+        </div>
+        <div class="m-auto w-[90%] border border-gray-500  mt-2 py-2" >
+           <h1 class="text-2xl text-yellow-100 " id="onMeal">No Meal to Show</h1>
+              <div class="grid grid-cols-4 gap-4 py-5" id="mealadd" >
+                  <!-- <div class="border border-orange-300 overflow-hidden py-5"> -->
+                     <!-- <img src="https://www.themealdb.com/images/media/meals/x2fw9e1560460636.jpg" alt="" class="rounded-full p-3"> -->
+                     <!-- <h2 class="text-yellow-200 mb-3">Leblebi Soup</h2> -->
+                      <!--  <p class="text-sm text-blue-50 mb-1 ">Heat the oil in a large pot.Add the onine and cook until translucent.Drai the soaked chickpeas a...</p>  --> 
+                     <!-- <p><span class="text-gray-500">Tunisian</span> <span class="text-gray-400">Vegetarian</span></p> -->
+                     <!-- <div class="mt-4"> -->
+                      <!-- <a href="#" class="bg-orange-500 px-4 py-2 rounded-xl text-yellow-100">Watch</a> -->
+                      <!-- <button class="text-slate-200 italic">View </button> -->
+                     <!-- </div> -->
+<!--                       -->
+                  <!-- </div> -->
+             </div>
+        </div>
+</div>
+
+<div class="pop  invisible" id="pop"> 
+</div>
+<!--  -->
+<script src="index.js"></script>
+</body>
+</html>
+
