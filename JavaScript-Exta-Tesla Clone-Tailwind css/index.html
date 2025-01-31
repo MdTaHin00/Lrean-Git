@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <style type="text/tailwindcss">
+ @layer components{
+   .header{ 
+       @apply flex justify-around   items-center z-10  fixed w-full sm:mt-[-80px] mt-[-30px] 
+   } 
+  .icon-img2{
+    @apply h-6 
+  }
+  .list{
+    @apply list-none
+  }
+  .ankor{
+    @apply   text-white text-xl  hover:text-slate-600 duration-500
+  }
+  .car-img{
+    @apply absolute top-0 -z-10 w-[100%]
+    object-cover 
+  }
+  .text{
+    @apply w-[60%] mx-auto mt-[8%] text-center
+  }
+
+  .humberger-a{
+    @apply italic font-mono text-blue-100 font-bold text-3xl hover:underline duration-500 hover:text-blue-400
+    px-4 py-5 hover:bg-gray-700 hover:line-clamp-3
+  rounded-s-xl
+  }
+  .humberger-img{
+    @apply w-[40px] 
+  }
+  }
+   </style>
+
+
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+  body{
+    font-family: "Montserrat", serif;
+  }
+  </style>
+
+  
+ <header class="header">
+    <div class=" w-[200px] text-white">
+      <svg class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon" viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7M308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7"></path></svg>
+    </div>
+    <nav class="lg:flex gap-5 hidden ">
+       <li class="list"><a href="#Model-Y" class="ankor">Home</a></li>
+       <li class="list"><a href="#New Model-Y" class="ankor">New Model Y</a></li>
+       <li  class="list"><a href="#Model-3" class="ankor">Model 3</a></li>
+       <li  class="list"><a href="#Model-X" class="ankor">Model X</a></li>
+       <li  class="list"><a href="#Model-S" class="ankor">Model S</a></li>
+       <li  class="list"><a href="#Solar-Panels" class="ankor">Solar Panels</a></li>
+       <li  class="list"><a href="#Solar-Roof" class="ankor">Solar Roof</a></li>
+    </nav>
+    <div class="lg:flex gap-2 hidden">
+      <div >
+        <a href=""> <img src="image/user.png" alt="" 
+          class="icon-img2"></a>
+      </div>
+      <div>
+         <a href=""> <img src="image/world.png" alt="" 
+          class="icon-img2"></a>
+      </div>
+
+    </div>
+    <div class="bg-[#94a3b83d] hover:bg-[#94a3b8f4] py-1 px-2 duration-500 lg:hidden">
+      <h1 class="text-yellow-50 font-semibold text-xl italic" id="manu">MENU</h1>
+    </div>
+          <!-- humberger  data-manu -->
+    <div class="bg-[#22333B] w-[340px] h-[400px] absolute right-[-100%] top-0 px-5 rounded-2xl z-10 duration-1000 py-8" id="humberger-content">
+       <ul>
+        <img src="image/cross.png" alt="" class="w-[40px] absolute right-2 top-0" id="humberger-end">
+        <li><a href="#Model-Y" class="humberger-a">Home</a></li>
+        <li><a href="#New Model-Y" class="humberger-a">New Model Y</a></li>
+        <li><a href="#Model-3" class="humberger-a">Model 3</a></li>
+        <li><a href="#Model-X" class="humberger-a">Model X</a></li>
+        <li><a href="#Model-S" class="humberger-a">Model S</a></li>
+        <li><a href="#Solar-Panels" class="humberger-a">Solar Panels</a></li>
+        <li><a href="#Solar-Roof" class="humberger-a">Solar Roof</a></li>
+       </ul>
+       <div class="flex mt-10 gap-3 pl-4">
+        <a href=""><img src="image/instagram.png" alt="" class="humberger-img"></a>
+        <a href=""><img src="image/tiktok.png" alt="" class="humberger-img bg-white rounded-full"></a>
+        <a href="https://web.facebook.com/" target="_blank"><img src="image/facebook.png" alt="" class="humberger-img"></a>
+        <a href=""><img src="image/youtube (1).png" alt="" class=" bg-[#46b2e9] rounded-full humberger-img "></a>
+       </div>
+    </div>
+
+ </header>
+             <!-- Model-Y -->
+<section class="hello" id="Model-Y">
+     <div class="car-img">
+      <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-NA-v3.png" class="tcl-react-media__asset h-screen
+      w-[100%] object-cover " alt="Metallic blue Model Y driving down a hillside highway">
+     </div>
+</section>
+
+<section class="text">
+    
+    <div>
+      <h1 class="text-white text-5xl font-semibold pb-3">Model Y</h1>
+      <p class="text-white font-semibold text-2xl">$299/mo Leasing</p>
+      <h2 class="text-white font-semibold text-4xl mb-12">From $31,490<sup class="text-slate-100">1</sup></h2>
+    </div>
+    
+    <div >
+      <a href="#" class="bg-[#1A5EFF] text-white py-3 font-semibold md:px-20 rounded-xl mr-5 hover:bg-white hover:text-black duration-500">Order Now</a>
+      <a href="#"  class="bg-white text-black py-3 font-semibold md:px-20 rounded-xl hover:bg-[#1A5EFF] hover:text-white duration-500">Learn More</a>
+    </div>
+</section>
+
+               <!--New Model-Y -->
+
+  <section class="mt-[370px] relative" id="New Model-Y">
+    <div class="">
+     <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-2-Desktop-NA.png" class="w-[100%] object-cover h-screen" alt="Metallic blue Model Y driving down a hillside highway">
+    </div>
+
+    <section class="text absolute top-0  w-full flex justify-center">
+   
+      <div>
+        <h1 class="text-white text-5xl font-semibold mb-5"> New Model Y</h1>
+        <p class="text-white font-semibold text-2xl">Deliveries Begin in March</p>
+      </div>
+
+      
+   </section>
+   <div class="absolute top-[640px] w-full flex justify-center gap-10">
+    <a href="#" class="bg-[#1A5EFF] text-white py-3 
+  font-semibold md:px-32 rounded-xl mr-5 hover:bg-white 
+  hover:text-black duration-500">Order Now</a>
+    <a href="#"  class="bg-white text-black py-3 
+  font-semibold md:px-32 rounded-xl hover:bg-[#1A5EFF] 
+  hover:text-white duration-500">Learn More</a>
+  </div>
+</section>
+               <!-- Model-3 -->
+<section id="Model-3">
+  <section class=" relative">
+    <div class="">
+     <img src="image/Homepage-Model-3-Desktop-US.jpg" class="w-[100%] 
+object-cover h-screen" alt="Metallic blue Model Y driving down a hillside highway">
+    </div>
+
+    <section class="text absolute top-0  w-full flex justify-center">
+   
+      <div>
+        <h1 class="text-white text-5xl font-semibold mb-5">Model 3</h1>
+        <p class="text-white font-semibold text-2xl">$299/mo Leasing</p>
+        <h2 class="text-white font-semibold text-4xl mb-6">From $29,990 <sup class="text-slate-100">3</sup></h2>
+      </div>
+      
+   </section>
+   <div class="absolute top-[640px] w-full flex justify-center gap-10">
+    <a href="#" class="bg-[#1A5EFF] text-white py-3 
+  font-semibold sm:px-32 rounded-xl mr-5 hover:bg-white 
+  hover:text-black duration-500">Order Now</a>
+    <a href="#"  class="bg-white text-black py-3 
+  font-semibold sm:px-32 rounded-xl hover:bg-[#1A5EFF] 
+  hover:text-white duration-500">Learn More</a>
+  </div>
+</section>
+</section>
+               <!-- Model-X -->
+<section id="Model-X">
+  <section class=" relative">
+    <div class="">
+     <img src="image/Homepage-Model-X-Desktop-US.jpg" class="w-[100%] 
+object-cover h-screen" alt="Metallic blue Model Y driving down a hillside highway">
+    </div>
+
+    <section class="text absolute top-0  w-full flex justify-center">
+   
+      <div>
+        <h1 class="text-white text-5xl font-semibold mb-5"> Model X</h1>
+        <h2 class="text-white font-semibold text-4xl mb-6">From $29,990 <sup class="text-slate-100">4</sup></h2>
+        <p class="text-white font-semibold text-2xl underline ">After Federal Tax Credit $7,500 </p>
+        <p class="text-white font-semibold text-2xl underline ">and Est. Gas Savings $6,500 </p>
+      </div>
+      
+   </section>
+   <div class="absolute top-[640px] w-full flex justify-center gap-10">
+    <a href="#" class="bg-[#1A5EFF] text-white py-3 
+  font-semibold sm:px-32 rounded-xl mr-5 hover:bg-white 
+  hover:text-black duration-500">Order Now</a>
+    <a href="#"  class="bg-white text-black py-3 
+  font-semibold sm:px-32 rounded-xl hover:bg-[#1A5EFF] 
+  hover:text-white duration-500">Learn More</a>
+  </div>
+</section>
+</section>
+
+               <!-- Model-S -->
+      <section id="Model-S">
+         <section class=" relative">
+           <div class="">
+            <img src="image/Homepage-Model-S-Desktop-US.jpg" class="w-[100%] object-cover h-screen" alt="Metallic blue Model Y driving down a hillside highway">
+           </div>
+       
+           <section class="text absolute top-0  w-full flex justify-center">
+          
+             <div>
+               <h1 class="text-white text-5xl font-semibold mb-5"> Model S</h1>
+               <h2 class="text-white font-semibold text-4xl">Free Supercharging Included</h2>
+               <p class="text-white font-semibold text-2xl mb-2">From $73,490 <sup>3</sup> <span class="underline">After Est. Gas Savings $6,500</span></p>
+             </div>
+               
+             
+          </section>
+          <div class="absolute top-[640px] w-full flex justify-center gap-10">
+           <a href="#" class="bg-[#1A5EFF] text-white py-3 
+         font-semibold sm:px-32 rounded-xl mr-5 hover:bg-white 
+         hover:text-black duration-500">Order Now</a>
+           <a href="#"  class="bg-white text-black py-3 
+         font-semibold sm:px-32 rounded-xl hover:bg-[#1A5EFF] 
+         hover:text-white duration-500">Learn More</a>
+         </div>
+       </section>
+       </section>
+       
+
+          <!-- Solar-Panels -->
+          <section id="Solar-Panels">
+            <section class=" relative">
+              <div class="">
+               <img src="image/Homepage-SolarPanels-01-Desktop.jpg" class="w-[100%] object-cover h-screen" alt="Metallic blue Model Y driving 
+down a hillside highway">
+              </div>
+          
+              <section class="text absolute top-0  w-full flex justify-center">
+             
+                <div>
+                  <h1 class="text-white text-5xl font-semibold mb-5"> Solar Panels</h1>
+                  <h2 class="text-white font-semibold text-3xl">Schedule a Virtual Consultation</h2>
+                 
+                </div>
+                  
+                
+             </section>
+             <div class="absolute top-[640px] w-full flex justify-center gap-10">
+              <a href="#" class="bg-[#1A5EFF] text-white py-3 
+            font-semibold sm:px-32 rounded-xl mr-5 hover:bg-white 
+            hover:text-black duration-500">Order Now</a>
+              <a href="#"  class="bg-white text-black py-3 
+            font-semibold sm:px-32 rounded-xl hover:bg-[#1A5EFF] 
+            hover:text-white duration-500">Learn More</a>
+            </div>
+          </section>
+          </section>           
+   
+
+
+           <!-- Solar-Roof -->
+           <section id="Solar-Roof">
+             <section class=" relative">
+               <div class="">
+                <img src="image/Homepage-SolarRoof-Desktop-US.jpg" class="w-[100%] object-cover h-screen" alt="Metallic blue Model Y driving down a hillside highway">
+               </div>
+           
+               <section class="text absolute top-0  w-full flex justify-center">
+              
+                 <div>
+                   <h1 class="text-white text-5xl font-semibold mb-5">Solar Roof</h1>
+                   <h2 class="text-white font-semibold text-3xl">Produce Clean Energy From Your Roof</h2>
+                  
+                 </div>
+                   
+                 
+              </section>
+              <div class="absolute top-[640px] w-full flex justify-center gap-10">
+               <a href="#" class="bg-[#1A5EFF] text-white py-3 
+             font-semibold sm:px-32 rounded-xl mr-5 hover:bg-white 
+             hover:text-black duration-500">Order Now</a>
+               <a href="#"  class="bg-white text-black py-3 
+             font-semibold sm:px-32 rounded-xl hover:bg-[#1A5EFF] 
+             hover:text-white duration-500">Learn More</a>
+             </div>
+           </section>
+           </section>
+
+
+          
+          
+          
+          
+          
+          
+          
+
+<script src="apps.js"></script>           
+</body>
+</html>
